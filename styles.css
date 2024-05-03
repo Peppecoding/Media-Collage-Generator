@@ -1,0 +1,75 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+}
+
+.container {
+    max-width: 90vw;
+    margin: auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+input, button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+button {
+    background-color: #ff5722;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff7848;
+}
+
+.final-collage, .video-collage {
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.collage-item {
+    border: 1px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.collage-item img, .collage-item video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container2 {
+    width: 800px;
+    height: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.195);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
