@@ -32,5 +32,5 @@ Contributions are welcome! If you'd like to contribute, please fork the reposito
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 ## Contact
-For any feedback or queries, please reach out to [your-email@example.com].
+For any feedback or queries, please reach out to [www.linkedin.com/in/giuseppe-mendoza-noto-486715151].
 
