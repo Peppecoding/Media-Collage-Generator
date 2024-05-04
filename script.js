@@ -21,13 +21,13 @@ document.getElementById('finalizeCollage').addEventListener('click', function() 
             video.controls = true;
             video.autoplay = true;
             video.loop = true;
-            video.setAttribute('playsinline', true); // Ensures video plays inline on all devices
+            video.setAttribute('playsinline', true);
             collageItem.appendChild(video);
             finalCollage2.appendChild(collageItem);
 
             collageItem.style.width = '400px';
             collageItem.style.height = '300px';
-            collageItem.style.borderRadius = '15px'; // Style added for videos
+            collageItem.style.borderRadius = '15px';
         }
 
         collageItem.style.transform = `rotate(${Math.random() * 20 - 10}deg) scale(${Math.random() * 0.2 + 0.9})`;
